@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    display: none; /* Title is in table */
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.main-header {
+    background-color: #e6782b;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.date-cell {
+    background-color: #e6782b;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6782b;
+    color: white;
+    font-weight: bold;
+}
+
+.location {
+    background-color: #f4a261;
+    font-weight: bold;
+}
+
+td[contenteditable="true"] {
+    background-color: #fff8e7;
+}
+
+td:focus {
+    outline: 2px solid #ffa500;
+}
